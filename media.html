@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Media</title>
 </head>
+
 <body>
-     <header>
+    <header>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
@@ -17,5 +19,38 @@
             </ul>
         </nav>
     </header>
+    <h2>Adding videos</h2>
+    <video src="" controls width="600">
+        Your browser does not support the video tag
+    </video>
+
+    <video controls width="400">
+        <source src="" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <video controls width="400" autoplay muted loop>
+        <source src="" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+
+    <h2>Adding Audio</h2>
+    <audio src="" controls autoplay muted loop>
+        Your browser does not support the video tag
+    </audio>
+
+    <audio controls autoplay muted loop>
+        <source src="">
+        Your browser does not support the video tag
+    </audio>
+    
+    <h4>Ading Imaged</h4>
+    <img src="assests/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" 
+    alt="Computer Screen with HTML Code"
+    width="400" height="200">
+
+    <img src="assests/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="" 
+    srcset="assests/florian-olivo-4hbJ-eymZ1o-unsplash.jpg 300w, assests/florian-olivo-4hbJ-eymZ1o-unsplash.jpg, 600w assests/florian-olivo-4hbJ-eymZ1o-unsplash.jpg 900w" sizes="(max-width: 600px) 100vw 50vw">
 </body>
+
 </html>
